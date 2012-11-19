@@ -1,7 +1,7 @@
 require 'socket'
 
 server = TCPServer.new 8000
-print "Running on port 8000\n"
+print "Running server on port 8000.\n"
 
 loop do
    Thread.start(server.accept) do |client|

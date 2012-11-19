@@ -10,5 +10,5 @@ end
 # Note that this will block current thread.
 EventMachine::run do
   EventMachine::start_server "localhost", 8010, Pong
-  puts "Running server on port 8010"
+  puts "Running server on port 8010.\n"
 end
